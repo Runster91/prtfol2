@@ -1,0 +1,29 @@
+@media (prefers-color-scheme: light) {
+  :root {
+    color: white;
+    background-color: black;
+  }
+  a:hover{
+    color: blue
+  }
+  button{
+    background-color: red;
+  }
+}
+
+img {
+  width: 500px;
+  display: block;
+}
+
+#container{
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px
+}
+
+.card-container{
+  width: 100%;
+}
